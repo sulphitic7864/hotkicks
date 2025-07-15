@@ -637,12 +637,12 @@ export const brandsSection = {
 export const footerBannerData = {
   heading: 'BRINGING YOU TO UPDATE WITH FANTASTIC FOOTWEAR',
   description:
-    'View all brands of our collection on HotKicks, there is another collection. Please check it out bro, like seriously',
+    'View all brands of our collection on shopiNext, there is another collection. Please check it out bro, like seriously',
 };
 
 export const footerData = {
   description:
-    'HotKicks was designed and founded in 2023 by Person. The theme is about sneakers ecommerce thet use for shoes selling around the world.',
+    'shopiNext was designed and founded in 2023 by Person. The theme is about sneakers ecommerce thet use for shoes selling around the world.',
   footerLinks: [
     {
       title: 'Main Pages',
@@ -684,7 +684,7 @@ export const footerData = {
 export const newsletter = {
   heading: "Don't wanna miss our offers?",
   description:
-    'Drop your email below and start receiving the best offers from HotKicks',
+    'Drop your email below and start receiving the best offers from shopiNext',
 };
 
 export const shoeSizes = [
@@ -718,8 +718,8 @@ export const contactSection = {
       description:
         'Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.',
       contactLink: {
-        href: 'mailto:sales@hotkicks.com',
-        title: 'sales@hotkicks.com',
+        href: 'mailto:sales@shopiNext.com',
+        title: 'sales@shopiNext.com',
       },
     },
     {

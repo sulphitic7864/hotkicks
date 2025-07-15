@@ -42,7 +42,7 @@ const NavigationItem: FC<NavigationItemProps> = ({
 
   const renderMainItem = (item: NavItemType) => {
     return (
-      <div className="mx-3 flex shrink-0 items-center font-medium hover:text-primary">
+      <div className="mx-3 flex shrink-0 items-center font-medium hover:text-secondary">
         <Link
           className="list-none"
           href={{

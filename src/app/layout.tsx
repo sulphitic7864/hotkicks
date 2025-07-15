@@ -1,5 +1,6 @@
-import '@/styles/global.css';
 
+import '@/styles/global.css';
+import ThemeProviderWrapper from '@/providers/ThemeProviderWrapper';
 import type { Metadata } from 'next';
 import React, { Suspense } from 'react';
 
@@ -42,11 +43,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className="">
+        <ThemeProviderWrapper>
         <Header />
         <Suspense fallback={<Loading />}>{children}</Suspense>
         <Footer />
+        </ThemeProviderWrapper>  
       </body>
     </html>
   );

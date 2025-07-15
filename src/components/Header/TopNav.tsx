@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { topNavLinks } from '@/data/content';
+import { topNavLinks } from "@/data/content";
 
-import Language from '../Language';
-import NavigationItem from '../NavItem';
+import Language from "../Language";
+import NavigationItem from "../NavItem";
+import DarkModeToggle from "../DarkModeToggle";
 
 const TopNav = () => {
   return (
@@ -14,8 +15,10 @@ const TopNav = () => {
             <NavigationItem menuItem={item} key={item.id} />
           ))}
         </div>
-
+        <div className="flex items-center gap-3 pl-5">
+        <DarkModeToggle />
         <Language />
+      </div>
       </div>
     </div>
   );

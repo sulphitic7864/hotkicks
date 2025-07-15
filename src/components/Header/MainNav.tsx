@@ -14,16 +14,16 @@ import MenuBar from './MenuBar';
 
 const MainNav = () => {
   return (
-    <div className="container flex items-center justify-between py-4">
+    <div className="container flex items-center justify-between py-4 bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
       <div className="flex-1 lg:hidden">
         <MenuBar />
       </div>
       <div className="flex items-center gap-5 lg:basis-[60%]">
         <Logo />
-        <div className="hidden w-full max-w-2xl items-center gap-5 rounded-full border border-neutral-300 py-1 pr-3 lg:flex">
+        <div className="hidden w-full max-w-1xl items-center gap-5 rounded-full border border-neutral-300 pr-3 lg:flex">
           <Input
             type="text"
-            className="border-transparent bg-white placeholder:text-neutral-500 focus:border-transparent"
+            className="border-transparent bg-[hsl(var(--background))] placeholder:text-neutral-500 focus:border-transparent"
             placeholder="try 'Nike Air Jordan'"
           />
           <RiSearch2Line className="text-2xl text-neutral-500" />
@@ -36,10 +36,10 @@ const MainNav = () => {
           <FaRegBell className="text-2xl" />
         </div>
 
-        <div className="flex items-center divide-x divide-neutral-300">
+        <div className="flex items-center divide-x bg-[hsl(var(--background))] divide-[hsl(var(--background))]">
           <CartSideBar />
           <div className="flex items-center gap-2 pl-5">
-            <ButtonCircle3 className="overflow-hidden bg-gray" size="w-10 h-10">
+            <ButtonCircle3 className="overflow-hidden bg-[hsl(var(--background))]" size="w-10 h-10">
               <Image
                 src={avatar}
                 alt="avatar"

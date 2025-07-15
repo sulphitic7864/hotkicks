@@ -2,8 +2,8 @@
 
 export const AppConfig = {
   site_name: 'Starter',
-  title: 'Hotkicks Ecommerce Template',
+  title: 'shopiNext Ecommerce Template',
   description:
-    'Hotkicks Ecommerce Template in NextJS, React, HTML and TailwindCSS',
+    'shopiNext Ecommerce Template in NextJS, React, HTML and TailwindCSS',
   locale: 'en',
 };

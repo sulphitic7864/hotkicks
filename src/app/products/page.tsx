@@ -19,11 +19,11 @@ const page = () => {
         </div>
         <div className="mb-10 shrink-0 border-t lg:mx-4 lg:mb-0 lg:border-t-0" />
         <div className="relative flex-1">
-          <div className="top-32 z-10 mb-3 items-center gap-5 space-y-5 bg-white py-10 lg:sticky lg:flex lg:space-y-0">
+          <div className="top-32 z-10 mb-3 items-center gap-5 space-y-5 bg-[hsl(var(--background))] py-10 lg:sticky lg:flex lg:space-y-0">
             <div className="flex flex-1 items-center gap-2 rounded-full border border-neutral-300 px-4">
               <MdSearch className="text-2xl text-neutral-500" />
               <Input
-                type="password"
+                type="text"
                 rounded="rounded-full"
                 placeholder="Search..."
                 sizeClass="h-12 px-0 py-3"
