@@ -12,7 +12,7 @@ Developer experience first:
 - 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
 - ✅ Strict Mode for TypeScript and React 18
 - 🌈 Light and Dark Mode 
-- ♻️ Type-safe environment variables with T3 En
+- ♻️ Type-safe environment variables with T3 Env
 - ⌨️ Form with React Hook From
 - 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 - 💖 Code Formatter with [Prettier](https://prettier.io)
