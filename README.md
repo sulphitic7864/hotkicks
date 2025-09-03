@@ -17,7 +17,7 @@ Developer experience first:
 - 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 - 💖 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks
-- 🚫 Lint-staged for running linters on Git staged files
+- 🚫 Lint-staged for running linters on Git staged file
 - 🚓 Lint git commit with Commitlint
 - 📓 Write standard compliant commit messages with Commitizen
 - 🎁 Automatic changelog generation with Semantic Release
